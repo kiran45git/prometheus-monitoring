@@ -2,7 +2,7 @@ sudo useradd --no-create-home prometheus
 sudo mkdir /etc/prometheus
 sudo mkdir /var/lib/prometheus
  
-wget  https://github.com/prometheus/prometheus/releases/download/v2.23.0/prometheus-2.23.0.linux-amd64.tar.gz
+wget  https://github.com/prometheus/prometheus/releases/download/v2.51.1/prometheus-2.51.1.linux-amd64.tar.gz
 tar -xvf prometheus-2.23.0.linux-amd64.tar.gz
 sudo cp prometheus-2.23.0.linux-amd64/prometheus /usr/local/bin
 sudo cp prometheus-2.23.0.linux-amd64/promtool /usr/local/bin
